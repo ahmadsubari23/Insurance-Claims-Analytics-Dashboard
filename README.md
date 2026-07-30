@@ -1,171 +1,225 @@
 # 📊 Insurance Claims Performance Analytics Dashboard
 
-> Automated Executive Reporting Dashboard developed using Microsoft Excel for monitoring Non-Motor Insurance Claims Performance.
+> An automated Microsoft Excel dashboard for executive reporting and performance analysis of non-motor insurance claims.
+
+![LOB Distribution](./images/lob-distribution-dashboard.png)
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
-This project is an automated management reporting system developed using Microsoft Excel to analyze and monitor Non-Motor Insurance Claims Performance.
+This project demonstrates the development of an automated Executive Reporting Dashboard using Microsoft Excel to analyze and monitor non-motor insurance claims.
 
-The dashboard transforms operational claims data into executive reports, KPI dashboards, and visual analytics to support management decision-making.
+The dashboard converts operational claims data into executive reports, key performance indicators (KPIs), and visual analytics, enabling management to evaluate business performance and make informed decisions more efficiently.
 
-The project was developed for the Claims Division of PT Asuransi Central Asia (ACA) Surabaya Branch.
-
----
-
-## 🎯 Business Problem
-
-The Claims Division needed an efficient way to monitor:
-
-- Insurance Claims Performance
-- Outstanding Claims
-- Settled Claims
-- Claims by Line of Business
-- Claims Trend
-- Claims Aging
-- Claims Under Monitoring
-- Executive KPI Reports
-
-Previously, these reports required significant manual effort and repetitive calculations.
+> **Note:** This repository is shared for portfolio purposes only. All confidential business information has been removed or anonymized.
 
 ---
 
-## 💡 Solution
+# 🎯 Business Problem
 
-Developed an automated Excel-based reporting system that:
+Preparing insurance claims reports manually was a time-consuming process that required consolidating data from multiple operational records.
 
-- Processes raw claims data
+Management required a reporting solution capable of:
+
+- Monitoring overall claims performance
+- Tracking outstanding claims
+- Measuring settlement performance
+- Comparing performance across multiple Lines of Business (LOB)
+- Monitoring claims requiring operational follow-up
+- Producing executive reports automatically
+
+---
+
+# 💡 Solution
+
+Designed and developed an automated reporting system in Microsoft Excel that:
+
+- Consolidates operational claims data
 - Calculates KPIs automatically
-- Generates management dashboards
-- Produces printable executive reports
-- Visualizes insurance claims performance
+- Generates executive dashboards
+- Produces printable management reports
+- Visualizes historical performance trends
+- Supports operational monitoring and business decision-making
 
 ---
 
-# 📈 Dashboard Features
+# 📈 Key Metrics
+
+| Metric | Value |
+|--------|-------|
+| Analysis Period | 2010–2018 |
+| Lines of Business | 6 |
+| Dashboard Visualizations | 7 |
+| Executive Report | Automated |
+| KPI Monitoring | Yes |
+| Printable Report | Yes |
+
+---
+
+# 📊 Dashboard Features
 
 ### Executive Dashboard
 
-- Total Claims
-- Settled Claims
-- Outstanding Claims
-- Claims Trend
-- Historical Performance
-
-### Line of Business Analysis
-
-- Fire
-- Cargo
-- Hull
-- CPM
-- Casualty
-- Engineering
-
-### Claims Monitoring
-
-- Outstanding Claims
-- Claims Under Monitoring
-- Problematic Claims
-- Claims Aging
-
-### Performance Analysis
-
-- Yearly Trend
-- Monthly Trend
-- Settlement Performance
-- Historical Analysis (2010–2018)
-
-### Executive Reporting
-
-- Automatic Charts
-- KPI Summary
-- Printable Report
-- Management Presentation
-
----
-
-# 📊 Report Contents
-
-The automated report includes:
-
-- Executive Summary
+- Executive KPI Summary
 - Claims Performance Overview
-- Line of Business Analysis
-- Outstanding Analysis
-- Claims Monitoring
-- Claims Aging
-- Historical Trends
-- Monthly Performance
-- Problematic Claims Report
+- Historical Performance Analysis
+- Business Performance Visualization
 
----
+### Claims Analytics
 
-# 🛠 Technologies
+- Claims Distribution by Line of Business
+- Outstanding Claims Distribution
+- Claims Settlement Analysis
+- Historical Claims Trend (2010–2018)
 
-- Microsoft Excel
-- Advanced Excel Formulas
-- Conditional Formatting
-- Dashboard Design
-- Report Automation
+### Operational Monitoring
+
+- Outstanding Claims Trend
+- Claims Under Monitoring
+- Claims Update Timeliness
+- Claims Aging Analysis
 
 ---
 
 # 📷 Dashboard Preview
 
-> *(Add screenshots here)*
+## 1. Claims Distribution by Line of Business
 
-Example:
+![LOB Distribution](images/lob-distribution-dashboard.png)
 
-```
-images/dashboard.png
-```
+Distribution of insurance claims across six Lines of Business.
+
+---
+
+## 2. Outstanding Claims Distribution
+
+![Outstanding Claims](images/outstanding-claims-by-lob.png)
+
+Distribution of outstanding claims across different Lines of Business.
+
+---
+
+## 3. Historical Claims Trend
+
+![Claims Trend](images/claims-trend-by-line-of-business.png)
+
+Historical trend of insurance claims from 2010 to 2018.
+
+---
+
+## 4. Claims Settlement Performance
+
+![Claims Settlement](images/claims-settlement-dashboard.png)
+
+Comparison of settled and outstanding claims, including settlement KPI analysis.
+
+---
+
+## 5. Outstanding Claims Trend
+
+![Outstanding Trend](images/outstanding-claims-trend-by-lob.png)
+
+Trend analysis of outstanding claims across all Lines of Business.
+
+---
+
+## 6. Claims Under Monitoring
+
+![Claims Monitoring](images/claims-under-monitoring-by-lob.png)
+
+Dashboard for monitoring claims requiring continuous operational follow-up.
+
+---
+
+## 7. Claims Update Timeliness
+
+![Claims Update Period](images/claims-update-period-distribution.png)
+
+Distribution of claim update intervals to support operational monitoring and service performance evaluation.
+
+---
+
+# 🛠 Technologies Used
+
+- Microsoft Excel
+- Advanced Excel Formulas
+- Pivot Tables
+- Pivot Charts
+- Conditional Formatting
+- Dashboard Design
+- Data Visualization
+- Automated Reporting
 
 ---
 
 # 📊 Business Value
 
-This project helped simplify insurance claims reporting by:
+This solution helped improve reporting efficiency by:
 
+- Automating repetitive reporting tasks
+- Standardizing executive reports
+- Improving visibility of operational performance
+- Supporting data-driven decision-making
+- Enhancing claims monitoring
 - Reducing manual reporting effort
-- Standardizing management reports
-- Improving visibility of insurance claims performance
-- Supporting data-driven decision making
-- Monitoring operational KPIs
 
 ---
 
 # 💼 Skills Demonstrated
 
-- Data Analysis
 - Business Intelligence
-- Dashboard Development
-- Executive Reporting
+- Data Analysis
+- Executive Dashboard Development
 - KPI Development
-- Data Visualization
 - Insurance Analytics
-- Excel Automation
+- Data Visualization
+- Reporting Automation
+- Microsoft Excel
 - Business Process Improvement
+
+---
+
+# 📁 Repository Structure
+
+```
+Insurance-Claims-Performance-Dashboard
+│
+├── README.md
+├── report.pdf
+│
+├── images/
+│   ├── lob-distribution-dashboard.png
+│   ├── outstanding-claims-by-lob.png
+│   ├── claims-trend-by-line-of-business.png
+│   ├── claims-settlement-dashboard.png
+│   ├── outstanding-claims-trend-by-lob.png
+│   ├── claims-under-monitoring-by-lob.png
+│   └── claims-update-period-distribution.png
+│
+└── dashboard.xlsx (anonymized sample)
+```
 
 ---
 
 # 🚀 Future Improvements
 
-Future versions of this project may include:
+Future enhancements may include:
 
 - Power BI Dashboard
 - SQL Database Integration
 - Python Data Processing
 - Automated ETL Pipeline
-- Interactive Web Dashboard using Streamlit
+- Interactive Dashboard using Streamlit
+- Predictive Claims Analytics using Machine Learning
 
 ---
 
 # 📄 Disclaimer
 
-This repository is shared for portfolio purposes only.
+This repository is intended for educational and portfolio purposes only.
 
-All confidential company information has been removed or anonymized. The project demonstrates dashboard development, reporting automation, and data analytics techniques without exposing proprietary business data.
+All confidential business information has been removed or anonymized. The dashboards demonstrate reporting automation, business intelligence, KPI monitoring, and data visualization techniques without disclosing proprietary information.
 
 ---
 
@@ -180,3 +234,7 @@ LinkedIn: www.linkedin.com/in/ahmadsubari23
 GitHub: https://github.com/ahmadsubari23
 
 Email: ahmad.subari23@gmail.com
+
+---
+
+⭐ If you found this project interesting, feel free to give it a star.
